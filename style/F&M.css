@@ -128,6 +128,12 @@
     background: #c9c7b8;
     color: red;
 }
+a.content-link, a.inline-roll {
+    background: #FFFFFF;
+	color: #000000;
+    padding: 1px 4px;
+	border-radius: 15px;
+}
 /* Textos, Estatisticas, Dropdowns e Checkboxes */
 .sheet header.sheet-header h1 input {
     width: calc(80% - 2px);
@@ -141,9 +147,9 @@
     border-radius: 55px;
 }
 .sheet .statistic input[type="text"]{
-    width: calc(100% - 2px);
-    min-width: 20px;
-    height: var(--form-field-height);
+    width: calc(120% - 2px);
+    min-width: 5px;
+    height: calc(130% - 2px);
     background: rgba(0, 0, 0, 0.0);
     padding: 1px 3px;
     margin: 0px;
@@ -157,7 +163,7 @@
 .sheet .naming input[type="text"]{
     width: calc(100% - 2px);
     min-width: 20px;
-    height: var(--form-field-height);
+    height: calc(130% - 2px);
     background: rgba(0, 0, 0, 0.0);
     padding: 1px 3px;
     margin: 0px;
@@ -182,7 +188,7 @@
     color: white;
 }
 .sheet .choice select {
-    height: calc(var(--form-field-height) + 1px);
+    height: calc(125% - 2px);
     background: rgba(0, 0, 0, 0.05);
     border: 1px solid white;
     border-radius: 50px;
@@ -223,37 +229,9 @@
 }
 .Roll_Mod { color: white; }
 }
-.character .training input[type="checkbox"] {
-	display: inherit;
-}
-.character .training input[type="checkbox"] {
-   -webkit-appearance: initial;
-    appearance: initial;
-    background: url(/modules/feiticeiros-e-maldicoes/img/fire-unchecked.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    flex: 0 0 10px;
-    width: 27px;
-    height: 22px;
-	cursor: pointer;
-    transform: scale(1.4);
-}
-.character .training input[type="checkbox"]:checked {
-    background: url(/modules/feiticeiros-e-maldicoes/img/fire-checked.png);
-    -webkit-filter: none !important;
-	background-repeat: no-repeat;
-    background-size: contain;
-}
-.character .training-complete input[type="checkbox"]:checked {
-    background: url(/modules/feiticeiros-e-maldicoes/img/fire-burning.png);
-    -webkit-filter: none !important;
-	background-repeat: no-repeat;
-    background-size: contain;
-}
 .charname input{
 	width: 50%;
 	margin-left: 20px;
-
 }
 .custom-system-label {
     flex-direction: column;
@@ -306,10 +284,8 @@
 	color: white;
 }
 .atritable {
-	width:100%;
+	width:60%;
 	border-radius: 10px;
-	margin-left: 40px;
-	grid-column: 20px;
 	background-color: #33184c;
 }
 .resbar {
@@ -336,4 +312,11 @@
 .colorpanel {
 	border-radius: 15px;
 	background-color: #33184c;
+}
+.custom-system-label-subtitle {
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 1;
+    color: white;
+    font-family: Signika;
 }

@@ -1,11 +1,11 @@
 {
   "id": "feiticeiros-e-maldicoes",
   "title": "Feiticeiros e Maldições",
-  "version": "2.0",
+  "version": "2.1",
   "compatibility": {
-    "minimum": "12",
-    "verified": "12",
-    "maximum": "13"
+    "minimum": "13",
+    "verified": "13",
+    "maximum": "14"
   },
   "relationships": {
     "systems": [
@@ -233,5 +233,5 @@
   ],
   "url": "https://github.com/Kyodan061/Feiticeiros-e-Maldicoes-CSB",
   "manifest": "https://raw.githubusercontent.com/Kyodan061/Feiticeiros-e-Maldicoes-CSB/main/module.json",
-  "download": "https://github.com/Kyodan061/Feiticeiros-e-Maldicoes-CSB/releases/download/2.0/feiticeiros-e-maldicoes.zip"
+  "download": "https://github.com/Kyodan061/Feiticeiros-e-Maldicoes-CSB/releases/download/2.1/feiticeiros-e-maldicoes.zip"
 }
